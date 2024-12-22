@@ -1,0 +1,33 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: #f8f9fa;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Botones */
+.stButton>button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #0056b3;
+}
+
+/* Inputs */
+.stTextInput>div>div>input {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
